@@ -14,7 +14,7 @@ public class Task {
     private Integer id;
     private String activity;
     private String description;
-    private String priority;
+    private Integer priority;
     private String reward;
     private String status;
 }
