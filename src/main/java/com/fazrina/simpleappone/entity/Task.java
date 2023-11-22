@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 @NoArgsConstructor
 @Builder
 public class Task {
-    private String id;
+    private Integer id;
     private String activity;
     private String description;
     private String priority;
